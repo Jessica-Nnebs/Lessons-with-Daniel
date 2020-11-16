@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #fff;
+  }
+
+
+  nav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "DM Serif Display", serif;
+  }
+  
+  .container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex > div {
+    flex: 1;
+  }
+  
+  nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 30px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  
+  .img-wrapper img {
+    width: 100px;
+  }
+  
+  h1,
+  h2 {
+    font-size: 4em;
+    letter-spacing: 2px;
+    line-height: 1;
+    position: relative;
+    margin: 0;
+    padding-top: 50px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  .line-top::before {
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  p {
+    opacity: 0.8;
+    line-height: 1.7;
+  }
+  
+  .intro-bg {
+    width: 100%;
+  }
+  .about-us{
+      background-color: white;
+      color: black;
+      padding:200px 0px;
+  }
+
+  .my-goals{
+    background-color: black;
+    color:white;
+    padding:200px 0px;
+}
+
+.ask-why{
+    background-color:white;
+    color:black;
+    padding:200px 0px;
+}
+
+.contact-me{
+    background-color:black;
+    color:white;
+    padding:200px 0px;
+}
+
+
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 15px 25px ;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        resize: vertical;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      input[type=submit]:hover {
+       opacity: 0.8;
+      }
